@@ -1,0 +1,13 @@
+1) # Converting input to an integer
+age = int(input("Enter your age: "))
+
+# Now you can do math with it
+years_left = 100 - age
+print(f"You will turn 100 in {years_left} years!")
+
+
+2) # Converting input to a decimal number
+price = float(input("Enter the item price: "))
+discount = price * 0.10
+
+print(f"Your 10% discount is: {discount}")
